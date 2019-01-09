@@ -126,6 +126,10 @@ header nav a:hover {
         display: none;
 
     }
+
+    header nav a:hover {
+        background-color: none;
+    }
 }
 
 #menuknap {
@@ -146,7 +150,6 @@ header nav a:hover {
 #menu a {
     text-decoration: none;
     color: whitesmoke;
-    padding: 40px;
     line-height: 70px;
 }
 
@@ -445,6 +448,9 @@ p {
     justify-content: center;
     align-items: center;
     height: 400px;
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 15px;
 }
 
 .box {
@@ -452,6 +458,9 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 15px;
 }
 
 .element {
@@ -461,16 +470,23 @@ p {
     background: #202334;
     transition: 0.3s ease-in-out all;
     color: white;
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 15px;
 }
 
 .element h3 {
     font-size: 2rem;
     margin: 8px;
+
 }
 
 /*Hover effecten*/
 .box:hover .element {
     opacity: 0.9;
+    flex-grow: 2;
+    flex-basis: 400px;
+    padding: 15px;
 
 }
 
@@ -732,25 +748,371 @@ p {
     background-color: #879fb4;
 }
 
+#project .column p {
+    visibility: hidden;
+}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 414px) {
+    .gem img {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
     .box:hover .element {
         visibility: hidden;
     }
+
+    .element {
+        visibility: hidden;
+    }
+
+
+    .project h2 {
+        font-size: 1.2rem;
+
+
+    }
+
+    .project h3 {
+        font-size: 0.6rem;
+
+
+    }
+
+    .project h4 {
+        font-size: 0.5rem;
+
+
+    }
+
+    #project .column {
+
+        flex-grow: 2;
+        flex-basis: 400px;
+        padding: 15px;
+        position: absolute;
+
+    }
+
+
 
     .fadeInUp {
         animation: none;
     }
 
-    .project {}
 
-    img {
+    .box img {
         visibility: hidden;
+    }
 
+    #number1 {
+        padding: 10px;
+    }
+
+    #project1 .linkbox {
+        margin-top: 0px;
+        margin-left: 40px;
+        position: relative;
+    }
+
+    #project1 .linkbox2 {
+        margin-top: 5px;
+        margin-left: 40px;
+        position: relative;
+    }
+
+    #number1 h2 {
+        position: relative;
+        bottom: 250px;
+    }
+
+    #number1 h3 {
+        position: relative;
+        bottom: 250px;
+    }
+
+    #number1 h4 {
+        position: relative;
+        bottom: 250px;
+    }
+
+    #number1 img {
+        position: relative;
+        top: 50px;
+    }
+
+    #number2 {
+        padding: 10px;
+    }
+
+    #number2 h2 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number2 h3 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number2 h4 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number2 img {
+        position: relative;
+        top: 70px;
+    }
+
+    #project2 .linkbox3 {
+        margin-top: 0px;
+        margin-left: 40px;
+        position: relative;
+        top: 45px;
+    }
+
+    #number3 {
+        padding: 10px;
+    }
+
+    #project3 .linkbox {
+        margin-top: 0px;
+        margin-left: 40px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    #project3 .linkbox2 {
+        margin-top: 5px;
+        margin-left: 40px;
+        position: relative;
+        bottom: 20px
+    }
+
+    #number3 h2 {
+        position: relative;
+        bottom: 220px;
+    }
+
+    #number3 h3 {
+        position: relative;
+        bottom: 220px;
+    }
+
+    #number3 h4 {
+        position: relative;
+        bottom: 220px;
+    }
+
+    #number3 img {
+        position: relative;
+        top: 100px;
+    }
+
+    #number4 {
+        padding: 10px;
+    }
+
+    #project4 .linkbox {
+        margin-top: 0px;
+        margin-left: 40px;
+        position: relative;
+        top: 10px;
+    }
+
+    #project4 .linkbox2 {
+        margin-top: 4px;
+        margin-left: 40px;
+        position: relative;
+        top: 10px;
+    }
+
+    #number4 h2 {
+        position: relative;
+        bottom: 250px;
+    }
+
+    #number4 h3 {
+        position: relative;
+        bottom: 250px;
+    }
+
+    #number4 h4 {
+        position: relative;
+        bottom: 250px;
+    }
+
+    #number4 img {
+        position: relative;
+        top: 50px;
+    }
+
+    #number5 {
+        padding: 10px;
+    }
+
+    #project5 .linkbox {
+        margin-top: 0px;
+        margin-left: 40px;
+        position: relative;
+        top: 10px;
+    }
+
+    #project5 .linkbox2 {
+        margin-top: 4px;
+        margin-left: 40px;
+        position: relative;
+        top: 10px;
+    }
+
+    #number5 h2 {
+        position: relative;
+        bottom: 250px;
+    }
+
+    #number5 h3 {
+        position: relative;
+        bottom: 250px;
+    }
+
+    #number5 h4 {
+        position: relative;
+        bottom: 250px;
+    }
+
+    #number5 img {
+        position: relative;
+        top: 50px;
+    }
+
+    #number6 {
+        padding: 10px;
+    }
+
+    #project6 .linkbox3 {
+        margin-top: 0px;
+        margin-left: 40px;
+        position: relative;
+        top: 40px;
+    }
+
+    #number6 h2 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number6 h3 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number6 h4 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number6 img {
+        position: relative;
+        top: 50px;
+    }
+
+    #number7 {
+        padding: 10px;
+    }
+
+    #project7 .linkbox3 {
+        margin-top: 0px;
+        margin-left: 40px;
+        position: relative;
+        top: 45px;
+    }
+
+    #number7 h2 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number7 h3 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number7 h4 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number7 img {
+        position: relative;
+        top: 60px;
+    }
+
+    #number8 {
+        padding: 10px;
+    }
+
+    #project8 .linkbox3 {
+        margin-top: 0px;
+        margin-left: 40px;
+        position: relative;
+        top: 45px;
+    }
+
+    #number8 h2 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number8 h3 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number8 h4 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number8 img {
+        position: relative;
+        top: 60px;
+    }
+
+    #number9 {
+        padding: 10px;
+    }
+
+    #project9 .linkbox3 {
+        margin-top: 0px;
+        margin-left: 40px;
+        position: relative;
+        top: 45px;
+    }
+
+    #number9 h2 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number9 h3 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number9 h4 {
+        position: relative;
+        bottom: 280px;
+    }
+
+    #number9 img {
+        position: relative;
+        top: 70px;
     }
 
     #project3 .linkbox {
         margin-top: 60px;
+        position:
     }
-
-}
