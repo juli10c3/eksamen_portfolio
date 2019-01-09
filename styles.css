@@ -131,6 +131,7 @@ header nav a:hover {
 #menuknap {
     display: inline-block;
     font-size: 2rem;
+    font-family: sans-serif;
 
 }
 
@@ -138,7 +139,15 @@ header nav a:hover {
     list-style-type: none;
     transform-origin: top left;
     text-align: right;
-    background-color: whitesmoke;
+    background-color: #80acb9;
+    text-align: right;
+}
+
+#menu a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 40px;
+    line-height: 70px;
 }
 
 /*HEADER SLUTTER ---------------*/
@@ -306,12 +315,28 @@ header nav a:hover {
     max-width: 100%;
 }
 
+#om h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 0;
+}
+
 #om .column {
 
     flex-grow: 2;
     flex-basis: 400px;
     padding: 15px;
 
+}
+
+#om .om_column {
+
+    flex-grow: 2;
+    flex-basis: 400px;
+    padding: 15px;
+    margin-top: 55px;
 }
 
 #om .sectionwrapper {
@@ -321,16 +346,29 @@ header nav a:hover {
 }
 
 #cv {
-    padding-top: 100px;
     max-width: 100%;
 }
 
 
 #cv .column_big {
     flex-grow: 2;
-    flex-basis: 400px;
+    flex-basis: 600px;
     padding: 15px;
     text-align: right;
+
+
+}
+
+#cv li {
+    padding: 20px;
+}
+
+#cv ul {
+    list-style-image: url('square.png');
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 
 }
 
@@ -346,71 +384,34 @@ header nav a:hover {
     margin-top: 25px;
 }
 
+.curriculum_vitae {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
 
+.curriculum_vitae img {
+    width: 200px;
+
+    border: 20px solid rgba(0, 0, 0, 0.38);
+}
+
+.curriculum_vitae:hover {
+    opacity: 0.5;
+}
 
 /*OM SEKTION SLUTTER ----------------------------*/
 
 
-
-#eksempler .column {
-
-    /*    child*/
-    flex-grow: 1;
-    flex-basis: 200px;
-    margin: 2px;
-    /*    parent*/
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    /*    border: 1px solid #9fb4ba;*/
-    background-color: whitesmoke;
-    padding: 5px;
-
-    /*    background-color: #323234;*/
-
-}
-
-#eksempler {
-    padding-top: 100px;
-}
-
-#eksempler h2 {
-    background-color: white;
-
-}
-
-
 /*SKRIFT STARTER ------------------------*/
 
+
 /*
-
-.koer_bil {
-    animation-name: koer_bil;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-iteration-count: 1;
-    transform-origin: top left;
-    animation-timing-function: linear;
-
-}
-
-@keyframes koer_bil {
-    0% {
-        transform: translateY(0vw) scale(1)
-    }
-
-    100% {
-        transform: translateY(-15vw) scale(0);
-    }
-}
-*/
-
-
 
 .hide {
     display: none;
 }
+*/
 
 
 h1 {
@@ -446,50 +447,6 @@ p {
 }
 
 
-/*LINK -------------------------*/
-
-#eksempler a {
-    text-decoration: none;
-}
-
-/* unvisited link */
-
-#eksempler a:link {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-}
-
-
-/* visited link */
-#eksempler a:visited {
-    text-transform: uppercase;
-    color: #5ec7c7;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-}
-
-/* mouse over link */
-#eksempler a:hover {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-    border: 2px solid #5ec7c7;
-    padding: 5px;
-
-}
-
-/* selected link */
-
-#eksempler a:active {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-}
 
 
 /*SKRIFT SLUTTER ---------------------------*/
