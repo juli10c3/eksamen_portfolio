@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,900|Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
+
+</head>
+
+<body class>
+
+    <header>
+
+        <nav>
+            <section class="header_text">
+                <a href="index.html">Forside</a>
+                <a href="om.html">Om mig</a>
+                <a href="project.html">Mine projekter</a>
+            </section>
+            <div id="menuknap">☰</div>
+            <ul id="menu" class="hidden">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="om.html">Om mig</a></li>
+                <li><a href="eksempler.html">Mine projekter</a></li>
+            </ul>
+
+        </nav>
+
+
+
+    </header>
+
+    <section id="forside" class="fade_in">
+        <picture>
+            <source media="(min-width: 1920px) and (orientation: landscape)" srcset="tablet_landscape.svg">
+            <source media="(min-width: 1024px) and (orientation: landscape)" srcset="tablet_landscape.svg">
+            <source media="(min-width: 768px) and (orientation: portrait)" srcset="tablet_portrait.svg">
+            <source media="(min-width: 627px) and (orientation: landscape)" srcset="tablet_landscape.svg">
+            <source media="(min-width: 375px) and (orientation: portrait)" srcset="tablet_portrait.svg">
+
+            <img src="tablet_landscape.svg">
+
+        </picture>
+    </section>
+    <div class="centered" class="fade_in2">
+        Julie freund-poulsen
+        <br>═══════════<br>
+        P o r t f o l i o
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
