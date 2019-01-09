@@ -154,6 +154,48 @@ header nav a:hover {
 }
 
 /*HEADER SLUTTER ---------------*/
+/*FOOTER STARTER -----------------------*/
+
+footer {
+    position: relative;
+    display: block;
+    width: 100%;
+
+}
+
+.footer_text {
+    background-color: #80acb9;
+    max-width: 100%;
+    position: relative;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+footer p {
+    font-size: 0.7rem;
+    line-height: 1px;
+}
+
+footer a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'lato', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+footer a:hover {
+    background-color: #5ec7c7;
+    color: whitesmoke;
+}
+
+.footer_text {
+    width: 100%;
+}
+
 /*
 #om .sectionwrapper {
     background-color: rgba(188, 143, 143, 0.56);
@@ -244,7 +286,7 @@ header nav a:hover {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 414px) {
     .centered {
         bottom: 65%;
         left: 50%;
@@ -277,7 +319,7 @@ header nav a:hover {
 }
 
 
-@media only screen and (max-width: 627px) {
+@media only screen and (max-width: 375px) {
     .centered {
         bottom: 63%;
         left: 50%;
@@ -308,92 +350,99 @@ header nav a:hover {
     line-height: 0;
 }
 
-#om .column {
+@media only screen and (max-width: 414px) {
+    #om h2 {
 
-    flex-grow: 2;
-    flex-basis: 400px;
-    padding: 15px;
+        font-size: 2.5rem;
 
-}
+    }
 
-#om .om_column {
+    #om .column {
 
-    flex-grow: 2;
-    flex-basis: 400px;
-    padding: 15px;
-    margin-top: 55px;
-}
+        flex-grow: 2;
+        flex-basis: 400px;
+        padding: 15px;
 
-#om .sectionwrapper {
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 25px;
-}
+    }
 
-#cv {
-    max-width: 100%;
-}
+    #om .om_column {
 
+        flex-grow: 2;
+        flex-basis: 400px;
+        padding: 15px;
+        margin-top: 55px;
+    }
 
-#cv .column_big {
-    flex-grow: 2;
-    flex-basis: 600px;
-    padding: 15px;
-    text-align: right;
+    #om .sectionwrapper {
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 25px;
+    }
 
-
-}
-
-#cv li {
-    padding: 20px;
-    font-family: 'lato', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 300;
-}
-
-#cv ul {
-    list-style-image: url('square.png');
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-
-}
-
-#cv .column_small {
-    flex-grow: 1;
-    flex-basis: 200px;
-    padding: 15px;
-}
-
-#cv .sectionwrapper {
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 25px;
-}
-
-.curriculum_vitae {
-    display: flex;
-    justify-content: center;
-    height: 350px;
-}
-
-.curriculum_vitae img {
-    width: 200px;
-
-    border: 20px solid rgba(0, 0, 0, 0.38);
-}
-
-.curriculum_vitae:hover {
-    opacity: 0.5;
-}
-
-/*OM SEKTION SLUTTER ----------------------------*/
+    #cv {
+        max-width: 100%;
+    }
 
 
-/*SKRIFT STARTER ------------------------*/
+    #cv .column_big {
+        flex-grow: 2;
+        flex-basis: 600px;
+        padding: 15px;
+        text-align: right;
 
 
-/*
+    }
+
+    #cv li {
+        padding: 20px;
+        font-family: 'lato', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    #cv ul {
+        list-style-image: url('square.png');
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+
+    }
+
+    #cv .column_small {
+        flex-grow: 1;
+        flex-basis: 200px;
+        padding: 15px;
+    }
+
+    #cv .sectionwrapper {
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 25px;
+    }
+
+    .curriculum_vitae {
+        display: flex;
+        justify-content: center;
+        height: 350px;
+    }
+
+    .curriculum_vitae img {
+        width: 200px;
+
+        border: 20px solid rgba(0, 0, 0, 0.38);
+    }
+
+    .curriculum_vitae:hover {
+        opacity: 0.5;
+    }
+
+    /*OM SEKTION SLUTTER ----------------------------*/
+
+
+    /*SKRIFT STARTER ------------------------*/
+
+
+    /*
 
 .hide {
     display: none;
@@ -401,388 +450,271 @@ header nav a:hover {
 */
 
 
-h1 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 4rem;
-    text-align: center;
-    color: #5ec7c7;
-    text-transform: uppercase;
-    font-weight: 300;
-}
-
-h2,
-h3 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-
-}
-
-
-h2 {
-    font-size: 1.5rem;
-}
-
-h3 {
-    font-size: 1rem;
-}
-
-
-
-p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
-    line-height: 1.4;
-}
-
-
-
-
-/*SKRIFT SLUTTER ---------------------------*/
-
-
-
-/*MY PROJECTS STARTER HER ------------------*/
-
-/*pop up effekt på box */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    flex-grow: 1;
-    flex-basis: 200px;
-    padding: 15px;
-}
-
-.box {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    flex-basis: 200px;
-    padding: 15px;
-}
-
-.element {
-    position: absolute;
-    opacity: 0;
-    padding: 50px;
-    background: #202334;
-    transition: 0.3s ease-in-out all;
-    color: white;
-    flex-grow: 1;
-    flex-basis: 200px;
-    padding: 15px;
-}
-
-.element h3 {
-    font-size: 2rem;
-    margin: 8px;
-
-}
-
-/*Hover effecten*/
-.box:hover .element {
-    opacity: 0.9;
-    flex-grow: 2;
-    flex-basis: 400px;
-    padding: 15px;
-
-}
-
-
-/*EFFEKTER SLUTTER----------------- */
-
-/*PROJECT ---------------------*/
-/*KNAPPER ----------------*/
-
-
-#project .linkbox a {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-#project .linkbox2 a {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-#project .linkbox3 a {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-/* unvisited link */
-
-#project .linkbox a:link {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-    color: whitesmoke;
-}
-
-#project .linkbox2 a:link {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-    color: whitesmoke;
-}
-
-#project .linkbox3 a:link {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-    color: whitesmoke;
-}
-
-/* mouse over link */
-#project .linkbox:hover {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-    cursor: pointer;
-    background-color: #202334;
-
-}
-
-#project .linkbox2:hover {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-    cursor: pointer;
-    background-color: #202334;
-
-}
-
-#project .linkbox3:hover {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-    cursor: pointer;
-    background-color: #202334;
-
-}
-
-/* selected link */
-
-#project .linkbox a:active {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-}
-
-#project .linkbox2 a:active {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-}
-
-#project .linkbox3 a:active {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-}
-
-#project .linkbox {
-    width: 65%;
-    height: 11%;
-    border-radius: 7px;
-    margin: 0;
-    padding: 20px;
-    background-color: #5ec7c7;
-    margin-top: 90px;
-    display: flex;
-    justify-content: center;
-}
-
-#project .linkbox2 {
-    width: 65%;
-    height: 11%;
-    border-radius: 7px;
-    margin: 0;
-    padding: 20px;
-    background-color: #5ec7c7;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-
-}
-
-#project .linkbox3 {
-    width: 65%;
-    height: 11%;
-    border-radius: 7px;
-    margin: 0;
-    padding: 20px;
-    background-color: #5ec7c7;
-    margin-top: 170px;
-    display: flex;
-    justify-content: center;
-
-}
-
-#project .top {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-#project .bottom {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-
-#project .sectionwrapper {
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 25px;
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
+    h1 {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 4rem;
+        text-align: center;
+        color: #5ec7c7;
+        text-transform: uppercase;
+        font-weight: 300;
     }
 
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
+    h2,
+    h3 {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+
     }
-}
-
-.fadeInUp {
-    animation-name: fadeInUp;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-}
-
-#project .column {
-
-    flex-grow: 2;
-    flex-basis: 400px;
-    padding: 15px;
-}
-
-.project {
-    max-width: 100%;
-    padding-top: 100px;
-}
 
 
-#project h2,
-#project h3,
-#project h4 {
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    text-align: left;
-
-}
-
-.project h2 {
-    font-size: 2rem;
-    margin: 6px;
-    font-weight: 300;
-}
-
-.project h3 {
-    font-size: 1.5rem;
-    margin: 6px;
-    font-weight: 600;
-}
-
-
-.project h4 {
-    font-size: 1rem;
-    margin: 6px;
-    font-weight: 400;
-}
-
-/*BAGGRUNDE ----------*/
-
-#number1 {
-    background-color: white;
-}
-
-#number2 {
-    background-color: #dae2ea;
-}
-
-#number3 {
-    background-color: #c2c7d4;
-}
-
-#number4 {
-    background-color: #e3edf4;
-}
-
-#number5 {
-    background-color: #91afc1;
-}
-
-#number6 {
-    background-color: #758396;
-}
-
-#number7 {
-    background-color: #9a9ca3;
-}
-
-#number8 {
-    background-color: #c4cbd3;
-}
-
-
-#number9 {
-    background-color: #879fb4;
-}
-
-@media only screen and (min-width: 414px) {
-    .top img {
-        display: none;
+    h2 {
+        font-size: 1.5rem;
     }
-}
 
-@media only screen and (max-width: 414px) {
+    h3 {
+        font-size: 1rem;
+    }
 
-    .box:hover .element {
-        display: none;
-/*        position: absolute;
-        */    }
+
+
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+
+
+
+    /*SKRIFT SLUTTER ---------------------------*/
+
+
+
+    /*MY PROJECTS STARTER HER ------------------*/
+
+    /*pop up effekt på box */
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        flex-grow: 1;
+        flex-basis: 200px;
+        padding: 15px;
+    }
+
+    .box {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        flex-basis: 200px;
+        padding: 15px;
+    }
 
     .element {
-        display: none;
-/*        position: absolute;*/
+        position: absolute;
+        opacity: 0;
+        padding: 50px;
+        background: #202334;
+        transition: 0.3s ease-in-out all;
+        color: white;
+        flex-grow: 1;
+        flex-basis: 200px;
+        padding: 15px;
+    }
+
+    .element h3 {
+        font-size: 2rem;
+        margin: 8px;
+
+    }
+
+    /*Hover effecten*/
+    .box:hover .element {
+        opacity: 0.9;
+        flex-grow: 2;
+        flex-basis: 400px;
+        padding: 15px;
+
     }
 
 
-    .project h2 {
-        font-size: 1.2rem;
+    /*EFFEKTER SLUTTER----------------- */
 
+    /*PROJECT ---------------------*/
+    /*KNAPPER ----------------*/
+
+
+    #project .linkbox a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    #project .linkbox2 a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    #project .linkbox3 a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    /* unvisited link */
+
+    #project .linkbox a:link {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+        color: whitesmoke;
+    }
+
+    #project .linkbox2 a:link {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+        color: whitesmoke;
+    }
+
+    #project .linkbox3 a:link {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+        color: whitesmoke;
+    }
+
+    /* mouse over link */
+    #project .linkbox:hover {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+        cursor: pointer;
+        background-color: #202334;
 
     }
 
-    .project h3 {
-        font-size: 0.6rem;
-
+    #project .linkbox2:hover {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+        cursor: pointer;
+        background-color: #202334;
 
     }
 
-    .project h4 {
-        font-size: 0.5rem;
+    #project .linkbox3:hover {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+        cursor: pointer;
+        background-color: #202334;
+
+    }
+
+    /* selected link */
+
+    #project .linkbox a:active {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+    }
+
+    #project .linkbox2 a:active {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+    }
+
+    #project .linkbox3 a:active {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+    }
+
+    #project .linkbox {
+        width: 65%;
+        height: 11%;
+        border-radius: 7px;
+        margin: 0;
+        padding: 20px;
+        background-color: #5ec7c7;
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #project .linkbox2 {
+        width: 65%;
+        height: 11%;
+        border-radius: 7px;
+        margin: 0;
+        padding: 20px;
+        background-color: #5ec7c7;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #project .linkbox3 {
+        width: 65%;
+        height: 11%;
+        border-radius: 7px;
+        margin: 0;
+        padding: 20px;
+        background-color: #5ec7c7;
+        margin-top: 170px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #project .top {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    #project .bottom {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
 
+    #project .sectionwrapper {
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 25px;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .fadeInUp {
+        animation-name: fadeInUp;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
     }
 
     #project .column {
@@ -790,327 +722,459 @@ p {
         flex-grow: 2;
         flex-basis: 400px;
         padding: 15px;
-        position: absolute;
+    }
 
+    .project {
+        max-width: 100%;
+        padding-top: 100px;
     }
 
 
+    #project h2,
+    #project h3,
+    #project h4 {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        text-align: left;
 
-    .fadeInUp {
-        animation: none;
+    }
+
+    .project h2 {
+        font-size: 2rem;
+        margin: 6px;
+        font-weight: 300;
+    }
+
+    .project h3 {
+        font-size: 1.5rem;
+        margin: 6px;
+        font-weight: 600;
     }
 
 
-    .box img {
-        visibility: hidden;
+    .project h4 {
+        font-size: 1rem;
+        margin: 6px;
+        font-weight: 400;
     }
+
+    /*BAGGRUNDE ----------*/
 
     #number1 {
-        padding: 10px;
-    }
-
-    #project1 .linkbox {
-        margin-top: 0px;
-        margin-left: 40px;
-        position: relative;
-    }
-
-    #project1 .linkbox2 {
-        margin-top: 5px;
-        margin-left: 40px;
-        position: relative;
-    }
-
-    #number1 h2 {
-        position: relative;
-        bottom: 250px;
-    }
-
-    #number1 h3 {
-        position: relative;
-        bottom: 250px;
-    }
-
-    #number1 h4 {
-        position: relative;
-        bottom: 250px;
-    }
-
-    #number1 img {
-        position: relative;
-        top: 50px;
+        background-color: white;
     }
 
     #number2 {
-        padding: 10px;
-    }
-
-    #number2 h2 {
-        position: relative;
-        bottom: 280px;
-    }
-
-    #number2 h3 {
-        position: relative;
-        bottom: 280px;
-    }
-
-    #number2 h4 {
-        position: relative;
-        bottom: 280px;
-    }
-
-    #number2 img {
-        position: relative;
-        top: 70px;
-    }
-
-    #project2 .linkbox3 {
-        margin-top: 0px;
-        margin-left: 40px;
-        position: relative;
-        top: 45px;
+        background-color: #dae2ea;
     }
 
     #number3 {
-        padding: 10px;
-    }
-
-    #project3 .linkbox {
-        margin-top: 0px;
-        margin-left: 40px;
-        position: relative;
-        bottom: 20px;
-    }
-
-    #project3 .linkbox2 {
-        margin-top: 5px;
-        margin-left: 40px;
-        position: relative;
-        bottom: 20px
-    }
-
-    #number3 h2 {
-        position: relative;
-        bottom: 220px;
-    }
-
-    #number3 h3 {
-        position: relative;
-        bottom: 220px;
-    }
-
-    #number3 h4 {
-        position: relative;
-        bottom: 220px;
-    }
-
-    #number3 img {
-        position: relative;
-        top: 100px;
+        background-color: #c2c7d4;
     }
 
     #number4 {
-        padding: 10px;
-    }
-
-    #project4 .linkbox {
-        margin-top: 0px;
-        margin-left: 40px;
-        position: relative;
-        top: 10px;
-    }
-
-    #project4 .linkbox2 {
-        margin-top: 4px;
-        margin-left: 40px;
-        position: relative;
-        top: 10px;
-    }
-
-    #number4 h2 {
-        position: relative;
-        bottom: 250px;
-    }
-
-    #number4 h3 {
-        position: relative;
-        bottom: 250px;
-    }
-
-    #number4 h4 {
-        position: relative;
-        bottom: 250px;
-    }
-
-    #number4 img {
-        position: relative;
-        top: 50px;
+        background-color: #e3edf4;
     }
 
     #number5 {
-        padding: 10px;
-    }
-
-    #project5 .linkbox {
-        margin-top: 0px;
-        margin-left: 40px;
-        position: relative;
-        top: 10px;
-    }
-
-    #project5 .linkbox2 {
-        margin-top: 4px;
-        margin-left: 40px;
-        position: relative;
-        top: 10px;
-    }
-
-    #number5 h2 {
-        position: relative;
-        bottom: 250px;
-    }
-
-    #number5 h3 {
-        position: relative;
-        bottom: 250px;
-    }
-
-    #number5 h4 {
-        position: relative;
-        bottom: 250px;
-    }
-
-    #number5 img {
-        position: relative;
-        top: 50px;
+        background-color: #91afc1;
     }
 
     #number6 {
-        padding: 10px;
-    }
-
-    #project6 .linkbox3 {
-        margin-top: 0px;
-        margin-left: 40px;
-        position: relative;
-        top: 40px;
-    }
-
-    #number6 h2 {
-        position: relative;
-        bottom: 280px;
-    }
-
-    #number6 h3 {
-        position: relative;
-        bottom: 280px;
-    }
-
-    #number6 h4 {
-        position: relative;
-        bottom: 280px;
-    }
-
-    #number6 img {
-        position: relative;
-        top: 50px;
+        background-color: #758396;
     }
 
     #number7 {
-        padding: 10px;
-    }
-
-    #project7 .linkbox3 {
-        margin-top: 0px;
-        margin-left: 40px;
-        position: relative;
-        top: 45px;
-    }
-
-    #number7 h2 {
-        position: relative;
-        bottom: 280px;
-    }
-
-    #number7 h3 {
-        position: relative;
-        bottom: 280px;
-    }
-
-    #number7 h4 {
-        position: relative;
-        bottom: 280px;
-    }
-
-    #number7 img {
-        position: relative;
-        top: 60px;
+        background-color: #9a9ca3;
     }
 
     #number8 {
-        padding: 10px;
+        background-color: #c4cbd3;
     }
 
-    #project8 .linkbox3 {
-        margin-top: 0px;
-        margin-left: 40px;
-        position: relative;
-        top: 45px;
-    }
-
-    #number8 h2 {
-        position: relative;
-        bottom: 280px;
-    }
-
-    #number8 h3 {
-        position: relative;
-        bottom: 280px;
-    }
-
-    #number8 h4 {
-        position: relative;
-        bottom: 280px;
-    }
-
-    #number8 img {
-        position: relative;
-        top: 60px;
-    }
 
     #number9 {
-        padding: 10px;
+        background-color: #879fb4;
     }
 
-    #project9 .linkbox3 {
-        margin-top: 0px;
-        margin-left: 40px;
-        position: relative;
-        top: 45px;
+    @media only screen and (min-width: 414px) {
+        .top img {
+            display: none;
+        }
     }
 
-    #number9 h2 {
-        position: relative;
-        bottom: 280px;
-    }
+    @media only screen and (max-width: 414px) {
 
-    #number9 h3 {
-        position: relative;
-        bottom: 280px;
-    }
+        .box:hover .element {
+            display: none;
+            /*        position: absolute;
+        */
+        }
 
-    #number9 h4 {
-        position: relative;
-        bottom: 280px;
-    }
+        .element {
+            display: none;
+            /*        position: absolute;*/
+        }
 
-    #number9 img {
-        position: relative;
-        top: 70px;
-    }
 
-    #project3 .linkbox {
-        margin-top: 60px;
-        position:
+        .project h2 {
+            font-size: 1.2rem;
+
+
+        }
+
+        .project h3 {
+            font-size: 0.6rem;
+
+
+        }
+
+        .project h4 {
+            font-size: 0.5rem;
+
+
+        }
+
+        #project .column {
+
+            flex-grow: 2;
+            flex-basis: 400px;
+            padding: 15px;
+            position: absolute;
+
+        }
+
+
+
+        .fadeInUp {
+            animation: none;
+        }
+
+
+        .box img {
+            visibility: hidden;
+        }
+
+        #number1 {
+            padding: 10px;
+        }
+
+        #project1 .linkbox {
+            margin-top: 0px;
+            margin-left: 40px;
+            position: relative;
+            z-index: 1;
+        }
+
+        #project1 .linkbox2 {
+            margin-top: 5px;
+            margin-left: 40px;
+            position: relative;
+            z-index: 1;
+        }
+
+        #number1 h2 {
+            position: relative;
+            bottom: 250px;
+        }
+
+        #number1 h3 {
+            position: relative;
+            bottom: 250px;
+        }
+
+        #number1 h4 {
+            position: relative;
+            bottom: 250px;
+        }
+
+        #number1 img {
+            position: relative;
+            top: 50px;
+        }
+
+        #number2 {
+            padding: 10px;
+        }
+
+        #number2 h2 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number2 h3 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number2 h4 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number2 img {
+            position: relative;
+            top: 70px;
+        }
+
+        #project2 .linkbox3 {
+            margin-top: 0px;
+            margin-left: 40px;
+            position: relative;
+            top: 45px;
+            z-index: 1;
+        }
+
+        #number3 {
+            padding: 10px;
+        }
+
+        #project3 .linkbox {
+            margin-top: 0px;
+            margin-left: 40px;
+            position: relative;
+            bottom: 20px;
+            z-index: 1;
+        }
+
+        #project3 .linkbox2 {
+            margin-top: 5px;
+            margin-left: 40px;
+            position: relative;
+            bottom: 20px;
+            z-index: 1;
+        }
+
+        #number3 h2 {
+            position: relative;
+            bottom: 220px;
+        }
+
+        #number3 h3 {
+            position: relative;
+            bottom: 220px;
+        }
+
+        #number3 h4 {
+            position: relative;
+            bottom: 220px;
+        }
+
+        #number3 img {
+            position: relative;
+            top: 100px;
+        }
+
+        #number4 {
+            padding: 10px;
+        }
+
+        #project4 .linkbox {
+            margin-top: 0px;
+            margin-left: 40px;
+            position: relative;
+            top: 10px;
+            z-index: 1;
+        }
+
+        #project4 .linkbox2 {
+            margin-top: 4px;
+            margin-left: 40px;
+            position: relative;
+            top: 10px;
+            z-index: 1;
+        }
+
+        #number4 h2 {
+            position: relative;
+            bottom: 250px;
+        }
+
+        #number4 h3 {
+            position: relative;
+            bottom: 250px;
+        }
+
+        #number4 h4 {
+            position: relative;
+            bottom: 250px;
+        }
+
+        #number4 img {
+            position: relative;
+            top: 50px;
+        }
+
+        #number5 {
+            padding: 10px;
+        }
+
+        #project5 .linkbox {
+            margin-top: 0px;
+            margin-left: 40px;
+            position: relative;
+            top: 10px;
+            z-index: 1;
+        }
+
+        #project5 .linkbox2 {
+            margin-top: 4px;
+            margin-left: 40px;
+            position: relative;
+            top: 10px;
+            z-index: 1;
+        }
+
+        #number5 h2 {
+            position: relative;
+            bottom: 250px;
+        }
+
+        #number5 h3 {
+            position: relative;
+            bottom: 250px;
+        }
+
+        #number5 h4 {
+            position: relative;
+            bottom: 250px;
+        }
+
+        #number5 img {
+            position: relative;
+            top: 50px;
+        }
+
+        #number6 {
+            padding: 10px;
+        }
+
+        #project6 .linkbox3 {
+            margin-top: 0px;
+            margin-left: 40px;
+            position: relative;
+            top: 40px;
+            z-index: 1;
+        }
+
+        #number6 h2 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number6 h3 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number6 h4 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number6 img {
+            position: relative;
+            top: 50px;
+        }
+
+        #number7 {
+            padding: 10px;
+        }
+
+        #project7 .linkbox3 {
+            margin-top: 0px;
+            margin-left: 40px;
+            position: relative;
+            top: 45px;
+            z-index: 1;
+        }
+
+        #number7 h2 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number7 h3 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number7 h4 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number7 img {
+            position: relative;
+            top: 60px;
+        }
+
+        #number8 {
+            padding: 10px;
+        }
+
+        #project8 .linkbox3 {
+            margin-top: 0px;
+            margin-left: 40px;
+            position: relative;
+            top: 45px;
+            z-index: 1;
+        }
+
+        #number8 h2 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number8 h3 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number8 h4 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number8 img {
+            position: relative;
+            top: 60px;
+        }
+
+        #number9 {
+            padding: 10px;
+        }
+
+        #project9 .linkbox3 {
+            margin-top: 0px;
+            margin-left: 40px;
+            position: relative;
+            top: 45px;
+            z-index: 1;
+        }
+
+        #number9 h2 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number9 h3 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number9 h4 {
+            position: relative;
+            bottom: 280px;
+        }
+
+        #number9 img {
+            position: relative;
+            top: 70px;
+        }
+
+        #project3 .linkbox {
+            margin-top: 60px;
+            position:
+        }
     }
