@@ -256,7 +256,6 @@ header nav a:hover {
 
     }
 }
-}
 
 
 @media only screen and (max-width: 768px) {
@@ -361,11 +360,13 @@ header nav a:hover {
 
 #cv li {
     padding: 20px;
+    font-family: 'lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 #cv ul {
     list-style-image: url('square.png');
-
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -497,24 +498,24 @@ p {
 /*KNAPPER ----------------*/
 
 
-#project .linkbox a {
+.project .linkbox a {
     text-decoration: none;
     color: whitesmoke;
 }
 
-#project .linkbox2 a {
+.project .linkbox2 a {
     text-decoration: none;
     color: whitesmoke;
 }
 
-#project .linkbox3 a {
+.project .linkbox3 a {
     text-decoration: none;
     color: whitesmoke;
 }
 
 /* unvisited link */
 
-#project .linkbox a:link {
+.project .linkbox a:link {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -522,7 +523,7 @@ p {
     color: whitesmoke;
 }
 
-#project .linkbox2 a:link {
+.project .linkbox2 a:link {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -530,7 +531,7 @@ p {
     color: whitesmoke;
 }
 
-#project .linkbox3 a:link {
+.project .linkbox3 a:link {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -539,7 +540,7 @@ p {
 }
 
 /* mouse over link */
-#project .linkbox:hover {
+.project .linkbox:hover {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -559,7 +560,7 @@ p {
 
 }
 
-#project .linkbox3:hover {
+.project .linkbox3:hover {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -571,28 +572,28 @@ p {
 
 /* selected link */
 
-#project .linkbox a:active {
+.project .linkbox a:active {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
 }
 
-#project .linkbox2 a:active {
+.project .linkbox2 a:active {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
 }
 
-#project .linkbox3 a:active {
+.project .linkbox3 a:active {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
 }
 
-#project .linkbox {
+.project .linkbox {
     width: 65%;
     height: 11%;
     border-radius: 7px;
@@ -604,7 +605,7 @@ p {
     justify-content: center;
 }
 
-#project .linkbox2 {
+.project .linkbox2 {
     width: 65%;
     height: 11%;
     border-radius: 7px;
@@ -617,7 +618,7 @@ p {
 
 }
 
-#project .linkbox3 {
+.project .linkbox3 {
     width: 65%;
     height: 11%;
     border-radius: 7px;
@@ -630,21 +631,21 @@ p {
 
 }
 
-#project .top {
+.project .top {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 
 }
 
-#project .bottom {
+.project .bottom {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
 
-#project .sectionwrapper {
+.project .sectionwrapper {
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 25px;
@@ -668,42 +669,42 @@ p {
     animation-iteration-count: 1;
 }
 
-#project .column {
+.project .column {
 
     flex-grow: 2;
     flex-basis: 400px;
     padding: 15px;
 }
 
-#project {
+.project {
     max-width: 100%;
     padding-top: 100px;
 }
 
 
-#project h2,
-#project h3,
-#project h4 {
+.project h2,
+.project h3,
+.project h4 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     text-align: left;
 
 }
 
-#project h2 {
+.project h2 {
     font-size: 2rem;
     margin: 6px;
     font-weight: 300;
 }
 
-#project h3 {
+.project h3 {
     font-size: 1.5rem;
     margin: 6px;
     font-weight: 600;
 }
 
 
-#project h4 {
+.project h4 {
     font-size: 1rem;
     margin: 6px;
     font-weight: 400;

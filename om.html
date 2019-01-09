@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Min portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,900|Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
 
@@ -43,7 +43,7 @@
                     <i></i>
 
                 </div>
-                <div class="column" class="om_column">
+                <div class="column om_column">
                     <h2>Julie Freund-Poulsen</h2>
 
                     <p>Jeg er 22 år, født i Næstved og opvokset på Bornholm. Jeg flyttede til København på min 20 års fødselsdag og har siden da levet livet i fuld fart. <br><br>Jeg går på Multi Medie Design på KEA. Jeg elsker at kombinere det kreative med det teoretiske. At se en ide blive til et resultat, som man oven i købet er stolt over- dét er en super fed fornemmelse.
@@ -78,14 +78,14 @@
         <div class="baggrund">
             <div class="sectionwrapper">
                 <div class="column_big">
-                    <h2>
-                        <ul>
-                            <li>Læser Multi Medie Design på Københavns Erhvervsakademi</li>
-                            <li>Arbejder som tilkaldevikar hos DLA Piper Denmark</li>
-                            <li>Side-hobby som mikro influecer</li>
-                            <li>Har tidligere studeret på High School i USA</li>
-                        </ul>
-                    </h2>
+
+                    <ul>
+                        <li>Læser Multi Medie Design på Københavns Erhvervsakademi</li>
+                        <li>Arbejder som tilkaldevikar hos DLA Piper Denmark</li>
+                        <li>Side-hobby som mikro influecer</li>
+                        <li>Har tidligere studeret på High School i USA</li>
+                    </ul>
+
                     <br>
                     <p><br><br><br>
                         <br><br><br>
@@ -114,7 +114,8 @@
 
         <a href="project.html">Gå til toppen</a>
     </footer>
-    <script src="script.js">
+    <script src="script.js"></script>
+    <script>
         window.addEventListener("load", sidenVises);
 
         function sidenVises() {
@@ -127,10 +128,11 @@
         }
 
         function myFunction() {
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            if (document.body.scrollTop > 130 || document.documentElement.scrollTop > 130) {
                 document.getElementById("cv").className = "fadeInUp";
 
             }
+        }
     </script>
 </body>
 
