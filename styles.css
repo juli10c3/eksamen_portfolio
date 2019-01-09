@@ -748,24 +748,22 @@ p {
     background-color: #879fb4;
 }
 
-#project .column p {
-    visibility: hidden;
-}
-
 @media only screen and (min-width: 414px) {
-    .gem img {
-        visibility: hidden;
+    .top img {
+        display: none;
     }
 }
 
 @media only screen and (max-width: 414px) {
 
     .box:hover .element {
-        visibility: hidden;
-    }
+        display: none;
+/*        position: absolute;
+        */    }
 
     .element {
-        visibility: hidden;
+        display: none;
+/*        position: absolute;*/
     }
 
 
