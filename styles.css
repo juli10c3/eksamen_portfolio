@@ -170,24 +170,7 @@ header nav a:hover {
 
 }
 
-.fade_in {
-    animation-name: fade_in_kf;
-    animation-duration: 1.8s;
-    animation-iteration-count: 1;
-}
 
-@keyframes fade_in_kf {
-    0% {
-        /*        opacity: 0;*/
-        transform: translate(-1000px);
-    }
-
-    100% {
-        /*        opacity: 1;*/
-        transform: translate(0px);
-    }
-
-}
 
 
 .centered {
@@ -213,13 +196,13 @@ header nav a:hover {
 @keyframes fade_in2_kf {
     0% {
         opacity: 0;
-        transform: translatey(1000px);
+        transform: translatex(-50px);
 
     }
 
     100% {
         opacity: 1;
-        transform: translatey(0);
+        transform: translatex(0);
 
     }
 
@@ -462,7 +445,6 @@ p {
     justify-content: center;
     align-items: center;
     height: 400px;
-    width: 100%;
 }
 
 .box {
@@ -492,30 +474,31 @@ p {
 
 }
 
+
 /*EFFEKTER SLUTTER----------------- */
 
 /*PROJECT ---------------------*/
 /*KNAPPER ----------------*/
 
 
-.project .linkbox a {
+#project .linkbox a {
     text-decoration: none;
     color: whitesmoke;
 }
 
-.project .linkbox2 a {
+#project .linkbox2 a {
     text-decoration: none;
     color: whitesmoke;
 }
 
-.project .linkbox3 a {
+#project .linkbox3 a {
     text-decoration: none;
     color: whitesmoke;
 }
 
 /* unvisited link */
 
-.project .linkbox a:link {
+#project .linkbox a:link {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -523,7 +506,7 @@ p {
     color: whitesmoke;
 }
 
-.project .linkbox2 a:link {
+#project .linkbox2 a:link {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -531,7 +514,7 @@ p {
     color: whitesmoke;
 }
 
-.project .linkbox3 a:link {
+#project .linkbox3 a:link {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -540,7 +523,7 @@ p {
 }
 
 /* mouse over link */
-.project .linkbox:hover {
+#project .linkbox:hover {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -560,7 +543,7 @@ p {
 
 }
 
-.project .linkbox3:hover {
+#project .linkbox3:hover {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -572,28 +555,28 @@ p {
 
 /* selected link */
 
-.project .linkbox a:active {
+#project .linkbox a:active {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
 }
 
-.project .linkbox2 a:active {
+#project .linkbox2 a:active {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
 }
 
-.project .linkbox3 a:active {
+#project .linkbox3 a:active {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
 }
 
-.project .linkbox {
+#project .linkbox {
     width: 65%;
     height: 11%;
     border-radius: 7px;
@@ -605,7 +588,7 @@ p {
     justify-content: center;
 }
 
-.project .linkbox2 {
+#project .linkbox2 {
     width: 65%;
     height: 11%;
     border-radius: 7px;
@@ -618,7 +601,7 @@ p {
 
 }
 
-.project .linkbox3 {
+#project .linkbox3 {
     width: 65%;
     height: 11%;
     border-radius: 7px;
@@ -631,21 +614,21 @@ p {
 
 }
 
-.project .top {
+#project .top {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 
 }
 
-.project .bottom {
+#project .bottom {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
 
-.project .sectionwrapper {
+#project .sectionwrapper {
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 25px;
@@ -669,7 +652,7 @@ p {
     animation-iteration-count: 1;
 }
 
-.project .column {
+#project .column {
 
     flex-grow: 2;
     flex-basis: 400px;
@@ -682,9 +665,9 @@ p {
 }
 
 
-.project h2,
-.project h3,
-.project h4 {
+#project h2,
+#project h3,
+#project h4 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     text-align: left;
@@ -747,4 +730,27 @@ p {
 
 #number9 {
     background-color: #879fb4;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .box:hover .element {
+        visibility: hidden;
+    }
+
+    .fadeInUp {
+        animation: none;
+    }
+
+    .project {}
+
+    img {
+        visibility: hidden;
+
+    }
+
+    #project3 .linkbox {
+        margin-top: 60px;
+    }
+
 }
